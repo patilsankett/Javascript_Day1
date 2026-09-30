@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    const before_tax_cents = (2 * 2095 + 2 * 799) + (2 * 499);
+    const tax_cents = Math.round(before_tax_cents * 0.1);
+    const tax_dollars = tax_cents / 100;
+    console.log(`Estimated tax (10%): $${tax_dollars}`);
+  </script>
+</body>
+</html>
